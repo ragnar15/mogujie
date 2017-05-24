@@ -1,0 +1,33 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+fieldset, img { border:0; }
+
+img{display: block;}
+
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; } 
+body { color:#333; padding: 0; text-align:center;margin:0;
+font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+
+a { color:#666; text-decoration:none; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font_icon02/iconfont.eot');
+  src: url('../font_icon02/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font_icon02/iconfont.woff') format('woff'),
+  url('../font_icon02/iconfont.ttf') format('truetype'),
+  url('../font_icon02/iconfont.svg#iconfont') format('svg');
+}
+
+/*title*/
+#wrap_con{width:100%;background:#E9E9E9; font-family: 'iconfont';}
+#wrap{width:1200px;height:33px;margin:0 auto;position:relative;z-index: 100;}
+.home_f1{width:120px;height:30px;float:left;margin-left:20px;line-height:30px;}
+.home_top{float:right;width:530px;height:31px;text-align: center;}
+.home_top li{float:left;line-height:30px;position:relative;}
+.home_top li a{margin:0 15px 0 0; display:block;}
+.home_top li ul{display:none;width:32px;position:absolute;background:red;overflow:hidden;}
+.home_top li:hover ul{display:block;}
+.home_top li:hover ul li a{width:60px;line-height:30px;}
